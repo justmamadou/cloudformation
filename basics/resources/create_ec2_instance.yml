@@ -1,0 +1,8 @@
+AWSTemplateFormatVersion: 2010-09-09
+Description: This is a template for creation of ec2 instance
+Resources:
+  MyEC2Instance:
+    Type: AWS::EC2::Instance
+    Properties:
+      ImageId: ami-0182f373e66f89c85
+      InstanceType: t2.micro
